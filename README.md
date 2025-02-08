@@ -1,7 +1,6 @@
-# Japanese Sentence Constructor - AI Teaching Assistant Comparison
+# GenAI Bootcamp
 
-This project is part of the [FREE GenAI Bootcamp](https://genai.cloudprojectbootcamp.com/), where we explore and compare different AI approaches to creating a Japanese language teaching assistant.
+This is my repo for the [FREE GenAI Bootcamp](https://genai.cloudprojectbootcamp.com/), where I explore and compare different AI approaches to teaching Japanese to beginner language learners. 
 
-## Sentence Constructor
-`sentence-contructor` contains an example of iterative work in generating prompts for for create a Japanese teaching assistant. The prompts are fed into an AI Assistant (meta.ai, ChatGPT) and the output is reviewed by a human to 
-build the next prompt in the series. 
+## Japanese Sentence Constructor - AI Assistant Comparison
+`sentence-contructor` contains an example of iterative work in generating prompts to create a Japanese teaching assistant. The prompts are fed into an AI Assistant (meta.ai, ChatGPT) and the output is reviewed by a human to build the next prompt in the series. 
