@@ -7,6 +7,12 @@ I use ChatGPT 4o (pro, paid version) to refine prompts based on meta.ai prompts.
 
 To make the comparison fair, I added a specific prompt to make sure the AI does not use existing chats as input context.
 
+### Other considerations
+
+I do not know enough Japanese to be able to validate that the sentence structure is correct. I think this is where humans would come in and create clear requirements around what the sentence structure looks like, and how to classify words into categories. 
+
+I also believe that language learners are not necessarily going to be able to understand the sentence structure, and that it might be helpful to provide some guidance around the structure. 
+
 ### Prompt iteration overview
 
 1. **Prompt-03**: Initial prompt setup with basic teaching assistant role and vocabulary table format. Included ICECREAM keyword feature for answer reveal.
