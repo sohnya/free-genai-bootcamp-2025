@@ -17,7 +17,7 @@ https://github.com/sohnya/free-genai-bootcamp-2025/tree/main/sentence-constructo
 - The AI might forget what I told it in the inial prompt or make up a word that doesn't exist in the sentence. It might not be a good translator. 
 
 ### Technical Exploration
-Briefly describe the path of technical exploration during these projects.
+_Briefly describe the path of technical exploration during these projects._
 - Creating examples using more powerful (Claude 3.5 Sonnet on Windsurf) to make sure that they are correct. Manually validating the examples given and tweaking some outputs (such as mapping です to be a verb instead "copula").  
 - Quick testing of different prompt structures and iteration/refinement of prompts
 - Analyzing the feedback from AI responses
@@ -26,13 +26,15 @@ Briefly describe the path of technical exploration during these projects.
 - Increasingly specific prompts to tell the AI how to be a good translator, e.g. not adding/removing vocabulary. 
 
 ### Final Outcomes
-Describe your final outcomes or domain knowledge acquired.
+_Describe your final outcomes or domain knowledge acquired._
 
 - Not all LLMs are the same, the comparison of different assistants (and thereby, models) increased my understanding of limitations and capabilities of models. If we want to get the most accurate answers, we usually need to use paid versions of AI Assistants. If I had to use locally deployed models, I don't believe I would've been able to create a "reasonable" Japanese teacher in such a short time. 
 - Testing of different prompt structures and iteration/refinement of prompts enable rapid prototyping of applications. This leads to low technical overhead for testing new features (like the ICECREAM keyword for revealing an answer). 
 - Prompting techniques discovered while working with AI-Powered Assistants are
 -- using examples to guide output format
 -- implementing "secret" keywords for shortcuts
--- creating structured sectioning of responses. 
+-- creating structured sectioning of responses using markdown. 
 The main driver for improvements in output was adding more complex examples.
+- AI Assistants do not enforce all output gaurdrails before streaming the response. It can start streaming parts of the response and then "change its mind" mid-stream, overwriting the previous output. This was seen in meta.ai when it started giving a response and then overwrote the answer by saying it does not speak Japanese.
 - AI Assistants are not reliable translators, it takes domain knowledge and extensive testing to implement a "reasonable" Japanese teacher.
+
