@@ -9,10 +9,10 @@ This is my repo for the [FREE GenAI Bootcamp](https://genai.cloudprojectbootcamp
 https://github.com/sohnya/free-genai-bootcamp-2025/tree/main/sentence-constructor
 
 ### Github Link to GenAI Architecture
-
+https://github.com/sohnya/free-genai-bootcamp-2025/blob/main/0.%20architecture/llm-conceptual-diagram.png
 
 ### Hypothesis and Technical Uncertainty
-- Free AI Assistants are limited to less performant models, and they will likely not give as good answers are Pro versions of more powerful models.
+- Free AI Assistants are limited to less performant models, and they will likely not give as good answers as Pro versions of more powerful models.
 - It might not be possible to build a reasonable Japanese language teaching assistant using only AI Assistants. There will be some domain knowledge that will need to be captured in the prompts. I will see how far I can go with my limited knowledge and Japanese and limited grammar knowledge.
 - The AI might forget what I told it in the inial prompt or make up a word that doesn't exist in the sentence. It might not be a good translator. 
 
