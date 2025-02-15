@@ -31,11 +31,6 @@ venv.bak/
 .python-version
 backend_python/.venv/
 
-# SQLite
-*.db
-*.sqlite3
-*.sqlite
-
 # IDE
 .idea/
 .vscode/
@@ -43,6 +38,5 @@ backend_python/.venv/
 *.swo
 
 # Specific to this project
-backend_python/data/
 **/cpython-3.12*/**
 .uv/ 

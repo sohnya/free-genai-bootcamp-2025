@@ -11,7 +11,8 @@ sys.path.append(str(Path(__file__).resolve().parent.parent.parent.parent))
 from language_learning_api.db import engine, SessionLocal
 from language_learning_api import models
 
-SEED_DIR = Path(__file__).parent
+# Update seed directory path
+SEED_DIR = Path(__file__).resolve().parent.parent.parent.parent.parent / "data" / "seeds"
 
 async def seed_words():
     async with SessionLocal() as session:
